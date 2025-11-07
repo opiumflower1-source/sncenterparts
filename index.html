@@ -1,0 +1,329 @@
+<style>
+  * {
+    box-sizing: border-box;
+  }
+
+  body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+  }
+
+  .container {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+  }
+
+  h1, h2, h3 {
+    color: #1a3c6d;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .header {
+    text-align: center;
+    padding: 40px 20px 20px;
+    background: linear-gradient(180deg, #ffffff 0%, #eef3ff 100%);
+  }
+
+  .header img {
+    width: 220px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+
+  .promise {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 20px;
+  }
+
+  .cta-button {
+    display: block;
+    background-color: #e53935;
+    color: white;
+    text-align: center;
+    padding: 16px 0;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 8px;
+    margin: 15px auto;
+    width: 90%;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  }
+
+  .cta-line {
+    background-color: #00b900;
+  }
+
+  .section {
+    padding: 30px 10%;
+    border-bottom: 1px solid #eee;
+  }
+
+  .section-blue {
+    background-color: #1a3c6d;
+    color: white;
+  }
+
+  .service-card {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    border-left: 6px solid #ffcc00;
+  }
+
+  .service-card h3 {
+    color: #1a3c6d;
+    margin-top: 0;
+  }
+
+  .values-list {
+    list-style: none;
+    padding: 0;
+  }
+
+  .values-list li {
+    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"><path fill="%2328a745" d="M0 11l2-2 5 5L18 3l2 2L7 18z"/></svg>') no-repeat left 5px;
+    background-size: 18px;
+    padding-left: 30px;
+    margin-bottom: 12px;
+    font-weight: bold;
+  }
+
+  .footer {
+    background-color: #333;
+    color: white;
+    padding: 40px 15px;
+    text-align: center;
+    font-size: 15px;
+  }
+
+  .footer a {
+    color: #ffcc00;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  iframe {
+    border: 0;
+    width: 100%;
+    height: 400px;
+    border-radius: 8px;
+  }
+
+  img, iframe {
+    max-width: 100%;
+    height: auto;
+  }
+
+  @media (max-width: 768px) {
+    .section {
+      padding: 20px;
+    }
+    .cta-button {
+      width: 95%;
+      font-size: 18px;
+    }
+    .header img {
+      width: 180px;
+    }
+  }
+</style>
+
+</head>
+<body>
+  <div class="container">
+
+    <!-- Header -->
+    <div class="header">
+      <img src="logo.png" alt="S.N. CENTER PARTS Logo">
+      <h1>S.N. CENTER PARTS CO., LTD.</h1>
+      <p class="promise">ซ่อมโมล / ชิ้นส่วนเครื่องจักร มั่นใจได้งานคุณภาพ ส่งมอบตรงเวลา 🚀</p>
+    </div>
+
+    <!-- CTA -->
+    <a href="tel:0801590755" class="cta-button">📞 โทรด่วน: 080-1590755</a>
+    <a href="#" class="cta-button cta-line">💬 ทัก LINE OA สอบถามด่วน</a>
+
+    <!-- Services -->
+    <div class="section">
+      <h2>⚙️ 3 บริการหลัก ที่ทำให้งานคุณไม่สะดุด</h2>
+      
+      <div class="service-card">
+        <h3>1. ซ่อม/สร้างโมล & ชิ้นงานตามแบบ</h3>
+        <p>ใช้เครื่อง CNC Hartford เพื่อความแม่นยำสูง รับประกันคุณภาพทุกงาน!</p>
+      </div>
+      
+      <div class="service-card">
+        <h3>2. งานซ่อม/เชื่อมชิ้นส่วนเร่งด่วน</h3>
+        <p>แก้ไขงานสึกหรออย่างรวดเร็ว ส่งมอบตามกำหนดเป๊ะ ไม่มีดีเลย์</p>
+      </div>
+      
+      <div class="service-card">
+        <h3>3. จัดหาวัสดุ & Trading ครบวงจร</h3>
+        <p>จบในที่เดียว ลดเวลาจัดซื้อของคุณ พร้อมบริการหลังการขาย</p>
+      </div>
+    </div>
+
+    <!-- Values -->
+    <div class="section section-blue">
+      <h2>🧡 ทำไมฝ่ายจัดซื้อทั่วประเทศมั่นใจในเรา?</h2>
+      <ul class="values-list">
+        <li>ความซื่อสัตย์: ประเมินตามจริง ไม่ย้อมแมวงานซ่อม</li>
+        <li>ตรงเวลา: งานไม่สะดุดเพราะการรอคอย</li>
+        <li>คุณภาพ: ใส่ใจทุกขั้นตอน ลดความเสี่ยงของเสีย</li>
+      </ul>
+    </div>
+
+    <!-- Gallery -->
+    <div class="section">
+      <h2>✨ ตัวอย่างผลงานที่ผ่านมา</h2>
+      <p style="text-align:center;"><img src="images/mold-repair.jpg" alt="งานซ่อมโมล" style="width:100%; border-radius:8px; margin-bottom:10px;"></p>
+      <p style="text-align:center;"><img src="images/cnc-component.jpg" alt="Machined Component" style="width:100%; border-radius:8px;"></p>
+    </div>
+
+    <!-- Map -->
+    <div class="section">
+      <h2>📍 พิกัดบริษัท</h2>
+      <iframe 
+        src="https://www.google.com/maps?q=https://maps.app.goo.gl/vB3BTMJxQJZueWjW8&output=embed"
+        allowfullscreen=""
+        loading="lazy">
+      </iframe>
+      <p style="text-align:center; margin-top:10px;">
+        <a href="https://maps.app.goo.gl/vB3BTMJxQJZueWjW8" target="_blank" style="color:#1a3c6d; font-weight:bold;">
+          เปิดดูบน Google Maps ⤴️
+        </a>
+      </p>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+      <h2>ติดต่อเราทันที</h2>
+      <p><strong>📞 โทร:</strong> <a href="tel:0801590755">080-1590755</a></p>
+      <p><strong>💬 Line OA:</strong> <a href="#">(รอใส่ลิงก์)</a></p>
+      <p style="margin-top:15px;">189 หมู่ 8 ต.บึงอ้อ อ.ขามทะเลสอ จ.นครราชสีมา 30280</p>
+    </div>
+  </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
